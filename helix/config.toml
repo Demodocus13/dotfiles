@@ -1,0 +1,13 @@
+# ~/.config/helix/config.toml
+
+theme = "transparent_black"
+
+[editor.statusline]
+separator = "🎩"
+
+mode.normal = "😎"
+mode.insert = "🤔"
+mode.select = "🤓"
+
+left = ["mode", "file-name", "version-control"]
+right = ["diagnostics", "position", "file-encoding", "file-type"]

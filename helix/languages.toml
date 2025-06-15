@@ -1,0 +1,11 @@
+[[language]]
+name = "typst"
+file-types = ["typ", "typst"]
+formatter = { command = "typst", args = ["fmt", "-"] }
+
+language-servers = ["tinymist"]
+
+[language-server.tinymist]
+command = "/Users/xujinfan/.local/bin/tinymist-aarch64-apple-darwin/tinymist"
+args = ["lsp"]
+config = { provideFormatter = true }

@@ -1,0 +1,49 @@
+# Base UI
+"ui.background" = "none"
+"ui.text" = "#111111"
+"editor.background" = "none"
+"editor.foreground" = "#111111"
+"ui.cursor" = { fg = "#ffffff", bg = "#000000" }
+"ui.selection" = { fg = "#ffffff", bg = "#666666" }
+"ui.linenr" = "#999999"
+"ui.linenr.selected" = "#000000"
+"ui.menu" = { fg = "#000000", bg = "#dddddd" }
+"ui.menu.selected" = { fg = "#ffffff", bg = "#444444" }
+"ui.statusline" = { background = "none", foreground = "none" }
+"ui.statusline.inactive" = { fg = "#999999", bg = "#222222" }
+"ui.popup" = { fg = "#000000", bg = "#cccccc" }
+
+
+# Syntax: general
+"comment" = "#888888"
+"keyword" = "#5c1dab"         # deep purple
+"function" = "#0b61a4"        # blue
+"constant" = "#aa0000"        # dark red
+"string" = "#006400"          # dark green
+"character" = "#007000"
+"number" = "#990099"
+"boolean" = "#ff6600"
+"type" = "#003366"
+"variable" = "#222222"
+"attribute" = "#6a5acd"       # slate blue
+"namespace" = "#004488"
+"module" = "#884400"
+
+# Operators, punctuation, tags
+"operator" = "#222222"
+"special" = "#000000"
+"tag" = "#800080"             # purple
+
+# Diagnostics
+"diagnostic.error" = "#ff0000"
+"diagnostic.warning" = "#ffae00"
+"diagnostic.info" = "#0055ff"
+"diagnostic.hint" = "#009999"
+
+# Diff highlighting
+"diff.plus" = "#004400"
+"diff.minus" = "#440000"
+"diff.delta" = "#000044"
+
+# Inlay hints
+"inlay_hint" = { fg = "#888888", bg = "none" }
