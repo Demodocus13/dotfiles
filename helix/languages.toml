@@ -9,3 +9,20 @@ language-servers = ["tinymist"]
 command = "/Users/xujinfan/.local/bin/tinymist-aarch64-apple-darwin/tinymist"
 args = ["lsp"]
 config = { provideFormatter = true }
+
+[[language]]
+name = "haskell"
+file-types = ["hs", "lhs"]
+language-servers = ["hls"]
+
+[language-server.hls]
+command = "haskell-language-server-wrapper"
+args = ["--lsp"]
+
+[[language]]
+name = "ocaml"
+file-types = ["ml", "mli", "re", "rei"]
+language-servers = ["ocamllsp"]
+
+[language-server.ocamllsp]
+command = "ocamllsp"

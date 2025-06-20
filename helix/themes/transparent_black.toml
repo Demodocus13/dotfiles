@@ -3,16 +3,21 @@
 "ui.text" = "#111111"
 "editor.background" = "none"
 "editor.foreground" = "#111111"
-"ui.cursor" = { fg = "#ffffff", bg = "#000000" }
-"ui.selection" = { fg = "#ffffff", bg = "#666666" }
+"ui.cursor" = { fg = "#ffffff", bg = "#4682b4" }
+"ui.cursorline" = { bg = "#f7f7f7" }
+"ui.selection" = { fg = "#ffffff", bg = "#837D9A" }
 "ui.linenr" = "#999999"
-"ui.linenr.selected" = "#000000"
+"ui.linenr.selected" = "#4682b4"
 "ui.menu" = { fg = "#000000", bg = "#dddddd" }
 "ui.menu.selected" = { fg = "#ffffff", bg = "#444444" }
-"ui.statusline" = { background = "none", foreground = "none" }
+"ui.statusline" = { fg = "none", bg = "none" }
 "ui.statusline.inactive" = { fg = "#999999", bg = "#222222" }
-"ui.popup" = { fg = "#000000", bg = "#cccccc" }
+"ui.statusline.mode.normal" = { fg = "#ffffff", bg = "#4682b4" }
+"ui.statusline.mode.insert" = { fg = "#ffffff", bg = "#a55252" }
+"ui.statusline.mode.select" = { fg = "#ffffff", bg = "#b4a646" }
+"ui.virtual.indent-guide" = "#999998"
 
+"ui.popup" = { fg = "#000000", bg = "#cccccc" }
 
 # Syntax: general
 "comment" = "#888888"

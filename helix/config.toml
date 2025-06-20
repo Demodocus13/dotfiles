@@ -4,10 +4,47 @@ theme = "transparent_black"
 
 [editor.statusline]
 separator = "🎩"
-
 mode.normal = "😎"
 mode.insert = "🤔"
 mode.select = "🤓"
+left = ["mode", "spinner", "version-control", "file-modification-indicator"]  
+center = ["separator", "file-base-name", "separator"]
+right = ["diagnostics", "position", "file-encoding"]
 
-left = ["mode", "file-name", "version-control"]
-right = ["diagnostics", "position", "file-encoding", "file-type"]
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
+
+[editor]
+line-number = "relative"
+cursorline = true
+color-modes = true
+cursorcolumn = false
+scrolloff = 999
+mouse = false
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"     
+other-lines = "error"       
+prefix-len = 1              
+max-wrap = 20
+max-diagnostics = 2         
+
+[editor.indent-guides]
+render = true
+character = "⸽"
+skip-levels = 0
+
+[editor.soft-wrap]
+enable = true
+wrap-indicator = "↪"  
+
+[keys.normal]
+space = { q = ":w" }  
